@@ -1,0 +1,32 @@
+.Sidebar{
+    height: 100vh;
+    background: #333;
+}
+
+aside ul{
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+aside ul li {
+    justify-content: flex-end
+}
+
+aside ul li a{
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    padding: 20px;
+    transition: all .25s ease-in-out;
+}
+
+aside ul li a:hover{
+    background: teal;
+    color: #fff;
+}
+
+aside ul li a.active{
+    background: #fff;
+    color: teal
+}
